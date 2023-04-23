@@ -47,7 +47,6 @@ Pod::Spec.new do |s|
       
       s.vendored_frameworks = ['output/AMapSearch-NO-IDFA/AMapSearchKit.xcframework']
       
-      OTHER_LDFLAGS = $(inherited) -l"c++" -l"z" -framework "CoreLocation" -framework "CoreTelephony" -framework "Security" -framework "SystemConfiguration"
       s.frameworks = 'CoreLocation', 'CoreTelephony', 'Security', 'CoreMotion', 'SystemConfiguration'
       s.libraries = 'c++', 'z'
       
