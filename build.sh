@@ -38,7 +38,11 @@ function process {
 
     xcodebuild -create-xcframework -framework $L_PATH/iphone-os/$xcframeworkName.framework -framework $L_PATH/iphone-sim/$xcframeworkName.framework -output $OUTPUT_PATH/$xcframeworkName.xcframework
 
-    zip -r $OUTPUT_PATH.zip $OUTPUT_PATH
+#    zip -r $OUTPUT_PATH.zip $OUTPUT_PATH
+    cd $OUTPUT_PATH
+    zip -r $L_PATH.zip $xcframeworkName.xcframework
+    mv $L_PATH.zip ../$L_PATH.zip
+    cd ../../
 }
 
 
