@@ -1,15 +1,15 @@
-# AlipaySDK-in-xcframework
- A xcframework based AlipaySDK ***Support M1 simulator***
+# AMapSearch-NO-IDFA-in-xcframework
+ A xcframework based AMapSearch-NO-IDFA ***Support M1 simulator***
 
-Using AlipaySDK version: 15.8.11
+Using AMapSearchKit version: 9.5.0
 
 
 ## Background
 The offical AlipaySDK for IOS been built for 
-- IOS
+- iOS
     - armv7
     - arm64
-- IOS-Simulator
+- iOS-Simulator
     - x86_64
 
 &nbsp;&nbsp;On M1 machine, the simulator run with arm64 by default, in general cases, you may exclude arm64 on simulator run to avoid compile problems. but when you want develop react native probject, there is lot of dependencies require arm64 and not easy to change.
