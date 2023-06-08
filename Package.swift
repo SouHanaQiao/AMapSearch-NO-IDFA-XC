@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "AMapSearch-NO-IDFA",
             url: "https://github.com/SouHanaQiao/AMapSearch-NO-IDFA-XC/releases/download/9.5.0/AMapSearch-NO-IDFA.zip",
-            checksum: "8c27211c3fd9a10dafa33f02cd561c65a338f61b33e1812809c9e8111cc18611"),
+            checksum: "291e38afeab53af8d505f01525b5d5ed5fc31755e1227aab71a7ccd31e66ded7"),
         .testTarget(
             name: "AMapSearch-NO-IDFA-XCTests",
             dependencies: ["AMapSearch-NO-IDFA-XC"]),
