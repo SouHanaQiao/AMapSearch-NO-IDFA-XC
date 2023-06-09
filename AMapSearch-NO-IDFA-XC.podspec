@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
       
       s.ios.deployment_target = '11.0'
       
-      s.vendored_frameworks = ['AMapSearch-NO-IDFA/AMapSearchKit.xcframework']
+      s.vendored_frameworks = ['AMapSearchKit.xcframework']
       
       s.frameworks = 'CoreTelephony', 'SystemConfiguration'
       s.libraries = 'z'
