@@ -105,6 +105,7 @@ DerivedData
 .output
 *.zip
 
-AMap3DMap-NO-IDFA
-AMap3DMap-NO-IDFA/
+AMapSearch-NO-IDFA
+AMapSearch-NO-IDFA/
 
+arm64-to-simulator
