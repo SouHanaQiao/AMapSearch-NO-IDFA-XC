@@ -16,12 +16,7 @@ let package = Package(
         .package(url: "https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC", from: "1.8.2")
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(
-            name: "AMapSearch-NO-IDFA",
-            url: "https://github.com/SouHanaQiao/AMapSearch-NO-IDFA-XC/releases/download/9.5.0/AMapSearch-NO-IDFA.zip",
-            checksum: "9c8504d851d2fcd3d6089155cdda64090748436eda6fc2ce4364816a0c4d4470"),
+        .binaryTarget(name: "AMapSearch-NO-IDFA", path: "artifacts/AMapSearch-NO-IDFA.zip"),
         .target(name: "AMapSearch-NO-IDFA-XC", dependencies: [
             .product(name: "AMapFoundation-NO-IDFA-XC", package: "AMapFoundation-NO-IDFA-XC"),
             .target(name: "AMapSearch-NO-IDFA"),
@@ -33,5 +28,6 @@ let package = Package(
         .testTarget(
             name: "AMapSearch-NO-IDFA-XCTests",
             dependencies: ["AMapSearch-NO-IDFA-XC"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )

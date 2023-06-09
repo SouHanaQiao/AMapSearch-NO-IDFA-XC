@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "amapfoundation-no-idfa-xc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC",
+      "state" : {
+        "revision" : "97b7159bd5318bc6a6c721e2ff556c3c9f29d902",
+        "version" : "1.8.2"
+      }
+    }
+  ],
+  "version" : 2
+}

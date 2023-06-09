@@ -1,5 +1,5 @@
-# AMapSearch-NO-IDFA (9.5.0)
-curl https://a.amap.com/lbs/static/zip/AMap_iOS_Search_Lib_V9.5.0.zip -o AMapSearch-NO-IDFA.zip
+# AMapSearch-NO-IDFA (9.7.0)
+curl https://a.amap.com/lbs/static/zip/AMap_iOS_Search_Lib_V9.7.0.zip -o AMapSearch-NO-IDFA.zip
 unzip AMapSearch-NO-IDFA.zip -d AMapSearch-NO-IDFA
 
 xcframeworkName="AMapSearchKit"

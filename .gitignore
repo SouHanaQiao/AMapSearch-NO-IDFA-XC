@@ -102,8 +102,10 @@ UserInterfaceState.xcuserstate
 build/
 DerivedData
 
-.output
-*.zip
+output
+output/
+
+/AMapSearch-NO-IDFA.zip
 
 AMapSearch-NO-IDFA
 AMapSearch-NO-IDFA/

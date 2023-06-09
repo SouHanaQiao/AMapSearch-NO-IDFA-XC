@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMapSearch-NO-IDFA-XC'
-  s.version          = '9.5.0'
+  s.version          = '9.7.0'
   s.summary          = 'A xcframework based AMapSearch-NO-IDFA Support ARM64 simulator'
   
   s.description      = <<-DESC
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
       s.author           = { 'souahaqiao' => 'wangqinqian@126.com' }
 #      s.source           = { :path => './output/AMapSearch-NO-IDFA.xcframework' }
       #s.source = { :http => "file://#{zipfile}"}
-     s.source = { :http => "https://github.com/SouHanaQiao/AMapSearch-NO-IDFA-XC/releases/download/9.5.0/AMapSearch-NO-IDFA.zip"}
+     s.source = { :http => "https://github.com/SouHanaQiao/AMapSearch-NO-IDFA-XC/releases/download/9.7.0/AMapSearch-NO-IDFA.zip"}
       
       # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
       
