@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC",
       "state" : {
-        "revision" : "97b7159bd5318bc6a6c721e2ff556c3c9f29d902",
-        "version" : "1.8.2"
+        "revision" : "fb78509e5a82c5ff6987028aa090950322e2e22e",
+        "version" : "1.8.3"
       }
     }
   ],

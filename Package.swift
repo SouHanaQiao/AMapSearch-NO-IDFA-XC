@@ -13,7 +13,7 @@ let package = Package(
             targets: ["AMapSearch-NO-IDFA-XC"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC", from: "1.8.2")
+        .package(url: "https://github.com/SouHanaQiao/AMapFoundation-NO-IDFA-XC", from: "1.8.3")
     ],
     targets: [
         .binaryTarget(name: "AMapSearch-NO-IDFA", path: "artifacts/AMapSearch-NO-IDFA.zip"),
